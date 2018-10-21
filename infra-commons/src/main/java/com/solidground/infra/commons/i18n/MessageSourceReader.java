@@ -12,7 +12,7 @@ public interface MessageSourceReader {
      * One possible solution is to use Spring's MessageSource bean
      *
      * @param messageCode
-     * @return
+     * @return Actual message value
      */
     String getMessage(String messageCode);
 }
