@@ -21,7 +21,6 @@
         <dependency>
             <groupId>com.solidground</groupId>
             <artifactId>infra-commons</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
