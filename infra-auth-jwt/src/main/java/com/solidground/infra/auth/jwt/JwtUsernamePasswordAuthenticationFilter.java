@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.var;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
@@ -72,7 +73,7 @@ public class JwtUsernamePasswordAuthenticationFilter extends AbstractAuthenticat
     }
 
     @Data
-    private class User {
+    private static class User {
         private String username;
         private String password;
     }
