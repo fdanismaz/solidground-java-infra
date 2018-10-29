@@ -83,6 +83,8 @@
 
         <jjwt.version>0.9.1</jjwt.version>
 
+        <javax.interceptor-api.version>1.2.2</javax.interceptor-api.version>
+
         <maven.plugin.compiler.version>3.7.0</maven.plugin.compiler.version>
         <maven.plugin.build-helper.version>3.0.0</maven.plugin.build-helper.version>
         <maven.plugin.processor.version>3.2.0</maven.plugin.processor.version>
