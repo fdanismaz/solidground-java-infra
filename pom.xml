@@ -9,7 +9,7 @@
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.5.RELEASE</version>
     </parent>
-    <version>1.8-SNAPSHOT</version>
+    <version>1.8</version>
 
     <modules>
         <module>infra-caching-redis</module>
@@ -26,7 +26,7 @@
         <url>https://github.com/fdanismaz/solidground-java-infra</url>
         <connection>scm:git:git://github.com/fdanismaz/solidground-java-infra.git</connection>
         <developerConnection>scm:git:git@github.com:fdanismaz/solidground-java-infra.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>infra-1.8</tag>
     </scm>
 
     <developers>
