@@ -13,11 +13,11 @@
 
     <modules>
         <module>infra-caching-redis</module>
-        <module>infra-jpa-hibernate</module>
         <module>infra-commons</module>
         <module>infra-mapping</module>
         <module>infra-auth-jwt</module>
         <module>infra-api</module>
+        <module>infra-web</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -168,6 +168,12 @@
             <dependency>
                 <groupId>com.solidground</groupId>
                 <artifactId>infra-commons</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.solidground</groupId>
+                <artifactId>infra-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>

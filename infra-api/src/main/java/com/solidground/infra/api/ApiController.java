@@ -1,5 +1,9 @@
 package com.solidground.infra.api;
 
+import com.solidground.infra.web.resolver.ContextResolver;
+import com.solidground.infra.web.response.OperationValidationError;
+import com.solidground.infra.web.response.ValidationError;
+import com.solidground.infra.web.response.ValidationErrorItem;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.hateoas.Link;
 import org.springframework.hateoas.Resource;
@@ -18,6 +22,9 @@ public class ApiController {
 
     @Autowired
     protected Validator validator;
+
+    @Autowired
+    protected ContextResolver contextResolver;
 
     @InitBinder
     protected void initBinder(WebDataBinder binder) {

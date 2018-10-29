@@ -1,4 +1,4 @@
-package com.solidground.infra.api;
+package com.solidground.infra.web.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
