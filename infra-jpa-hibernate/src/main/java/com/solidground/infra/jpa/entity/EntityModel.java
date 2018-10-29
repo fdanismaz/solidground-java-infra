@@ -21,6 +21,8 @@ import java.io.Serializable;
 @EntityListeners(AuditingEntityListener.class)
 public class EntityModel implements Serializable {
 
+    private static final long serialVersionUID = 806660224761410822L;
+
     @CreatedBy
     @Column(name = "CREATED_BY", updatable = false)
     protected String createdBy;

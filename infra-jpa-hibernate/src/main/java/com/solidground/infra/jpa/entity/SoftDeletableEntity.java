@@ -16,6 +16,8 @@ import javax.persistence.MappedSuperclass;
 @EntityListeners(AuditingEntityListener.class)
 public class SoftDeletableEntity extends EntityModel {
 
+    private static final long serialVersionUID = 1166505952598964484L;
+
     @Column(name = "DELETED", nullable = false)
     protected boolean deleted;
 }
