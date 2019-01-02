@@ -24,6 +24,11 @@
             <groupId>com.solidground</groupId>
             <artifactId>infra-web</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>com.solidground</groupId>
+            <artifactId>infra-commons</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

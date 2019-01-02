@@ -5,14 +5,14 @@
 **/Servers/**
 
 # Eclipse Project
-**.classpath
-**.project
-**.settings/
+**/*.classpath
+**/*.project
+**/*.settings/
 
 # Intellij
-**.idea/
-**.iml
-**.iws
+**/*.idea
+**/*.iml
+**/*.iws
 
 # Netbeans
 nbactions.xml

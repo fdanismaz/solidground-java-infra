@@ -16,8 +16,7 @@
         <module>infra-commons</module>
         <module>infra-mapping</module>
         <module>infra-auth-jwt</module>
-        <module>infra-api</module>
-        <module>infra-web</module>
+        <module>infra-rest-api</module>
     </modules>
 
     <packaging>pom</packaging>
