@@ -23,7 +23,7 @@
 
     <scm>
         <url>https://github.com/fdanismaz/solidground-java-infra</url>
-        <connection>scm:git:git://github.com/fdanismaz/solidground-java-infra.git</connection>
+        <connection>scm:git:git:@github.com/fdanismaz/solidground-java-infra.git</connection>
         <developerConnection>scm:git:git@github.com:fdanismaz/solidground-java-infra.git</developerConnection>
         <tag>infra-1.10</tag>
     </scm>
