@@ -2,17 +2,17 @@
 To be able to use maven release plugin:
 
 - I configured the scm section of the POM.xml
-
+```
     <scm>
         <url>https://github.com/fdanismaz/solidground-java-infra</url>
         <connection>scm:git:git://github.com/fdanismaz/solidground-java-infra.git</connection>
         <developerConnection>scm:git:git@github.com:fdanismaz/solidground-java-infra.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
-
+```
 
 - I added repository and distribution repository section to the POM.xml
-
+```
     <repositories>
         <repository>
             <id>maven-group</id>
@@ -30,7 +30,7 @@ To be able to use maven release plugin:
             <url>http://localhost:8081/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
-
+```
 
 - I added maven release plugin to the POM.xml
 
@@ -48,7 +48,8 @@ all submodules.
 
 
 HOW TO USE MAVEN RELEASE PLUGIN
-> mvn release:prepare
+``` 
+mvn release:prepare
     * Asks the release version
     * Asks the next development version
     * Changes the version of the project to the asked release version (including all sub-modules)
@@ -56,6 +57,7 @@ HOW TO USE MAVEN RELEASE PLUGIN
     * Changes the version of the project to the asked new development version (including all sub-modules)
     * Creates a commit point in the version control system
 
-> mvn release:perform
+mvn release:perform
     * Deploys all the modules to the maven proxy server
     * Pushes the commit points created by the release:prepare phase
+```
