@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.solidground</groupId>
         <artifactId>infra</artifactId>
-        <version>1.10-SNAPSHOT</version>
+        <version>1.10</version>
     </parent>
 
     <artifactId>infra-caching-redis</artifactId>
